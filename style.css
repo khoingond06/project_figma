@@ -71,7 +71,7 @@ html,body {
 }
 
 
-.section {
+.hero {
     background-color:#F5F7FA ;
     display: flex;
     padding: 6rem 25rem;
@@ -80,7 +80,7 @@ html,body {
     width: 100%;
     flex-wrap: wrap;
 }
-.frame-1{
+.hero__content{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -88,7 +88,7 @@ html,body {
     flex: 1 0 0;
     flex-wrap: wrap;
 }
-.frame-1 .text-1 {
+.hero__content .hero__title {
     color:  #4D4D4D;
     font-family: Inter;
     font-size: 2.78425rem;
@@ -96,10 +96,10 @@ html,body {
     font-weight: 600;
     line-height: 3.30631rem;
 }
-.frame-1 .text-1 span {
+.hero__content .hero__title span {
     color:  #4CAF4F;
 }
-.frame-1 .text-2 {
+.hero__content .hero__description {
     color:  #717171;
     font-size: 0.69606rem;
     font-style: normal;
@@ -107,7 +107,7 @@ html,body {
     line-height: 1.04413rem;
     margin-top: -3rem;
 }
-.frame-1 button {
+.hero__content button {
     display: flex;
     padding: 0.60906rem 1.39213rem;
     justify-content: center;
@@ -118,7 +118,7 @@ html,body {
     color: #fff;
     background-color: #4CAF4F;
 }
-.frame-2 img {
+.hero__image img {
     max-width: 100%;
     height: auto;
     object-fit: cover;
