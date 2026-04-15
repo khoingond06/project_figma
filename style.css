@@ -288,19 +288,19 @@ html,body {
     justify-content: space-between;
     padding: 0rem 9rem;
 }
-.calendar .calendar-text{
+.calendar .calendar__content{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     gap: 2rem;
     width: 40rem;
 }
-.calendar .calendar-head{
+.calendar .calendar__title{
     font-size: 2.75em;
     font-weight: 700;
     line-height: 2.75rem;
 }
-.calendar .calendar-sup{
+.calendar .calendar__description{
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.5rem;
@@ -325,45 +325,45 @@ html,body {
     flex-wrap: wrap;
     align-items: center;
 }
-.review-t{
+.review__content{
     width: 70rem;
     gap: 1.5rem;
     display: flex;
     align-items: flex-start;
     flex-direction: column;
 }
-.review-cont,
-.review-sub{
+.review__description,
+.review__role{
     font-size: 1.5rem;
     font-weight: 400;
     line-height: 1.5rem;
     color:  #717171;
 }
-.review-head{
+.review__author{
     font-weight: 600;
     line-height: 1.75rem;
     font-size: 1.25rem;
     color: #4CAF4F;
 }
-.review-logo{
+.review__footer{
     display: flex;
     gap: 2em;
     align-items: center;
     flex-wrap: wrap;
 }
-.logo{
+.review__logos{
     display: flex;
     gap: 2.5em;
     align-items: center;
     flex-wrap: wrap;
 }
-.review .button{
+.review .review__action{
     display:flex;
     align-items: center;
     gap: 1.5rem;
     flex-direction: row;
 }
-.review .custom-button{
+.review .review__link{
     color: #4CAF4F;
     font-size: 1.25rem;
     font-style: normal;
