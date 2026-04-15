@@ -192,14 +192,14 @@ html,body {
     font-weight: 700;
     text-align: center;
 }
-.text{
+.feature{
     margin: 5rem 15rem;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
 }
-.text .text-head{
+.feature .feature__content{
     display: flex;
     width: 41rem;
     flex-direction: column;
@@ -207,13 +207,13 @@ html,body {
     gap: 2rem;
     flex-wrap: wrap;
 }
-.text .text-1{
+.feature .feature__title{
     line-height: 2.75rem;
     font-weight: 700;
     font-size: 2.25rem;
     color:  #717171;
 }
-.text .text-button{
+.feature .feature__button{
     background-color:#4CAF4F;
     color: #fff;
     border: none;
