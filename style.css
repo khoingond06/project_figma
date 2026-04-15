@@ -376,22 +376,22 @@ html,body {
     align-items: center;
     gap: 0.5rem;
 }
-.blog-detail{
+.blog__header{
     display: flex;
     width: 69.375rem;
     flex-direction: column;
     align-items: center;
     gap: 0.5rem;
 }
-.detail-header{
+.blog__title{
     font-weight: 600;
     line-height: 2.75rem;
     font-size: 2.25rem;
 }
-.detail-text{
+.blog__description{
     width: 39.25rem;
 }
-.blog-frame{
+.blog__list{
     display: flex;
     justify-content: space-between;
     gap: 2.5rem;
@@ -399,12 +399,12 @@ html,body {
     flex-wrap: wrap;
 
 }
-.frame-box{
+.blog__card{
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.box-content{
+.blog__content{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -417,7 +417,7 @@ html,body {
     border-radius: 0.5rem;
     width: 20rem;
 }
-.box-content-text{
+.blog__text{
     color: #717171;
     text-align: center;
     font-size: 1.25rem;
@@ -426,7 +426,7 @@ html,body {
     line-height: 1.75rem;
     width: 17.8125rem;
 }
-.box-content .button{
+.blog__content .blog__action{
     color:#4CAF4F ;
     display: flex;
     gap: 1rem;
