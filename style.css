@@ -231,7 +231,7 @@ html,body {
     align-items: center;
     background-color: #F5F7FA;
 }
-.stats .stat-heading{
+.stats .stats__header{
     display: flex;
     width: 25rem;
     flex-direction: column;
@@ -239,15 +239,15 @@ html,body {
     gap: 2rem;
     flex-wrap: wrap;
 }
-.stats .stat-tittle{
+.stats .stats__title{
     line-height: 2.75rem;
     font-weight: 700;
     font-size: 2.25rem;
 }
-.stat-tittle span{
+.stats__title span{
     color: #4CAF4F;
 }
-.stats .stat-count{
+.stats .stats__list{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -255,30 +255,28 @@ html,body {
     font-size: 2.25rem;
     width: 43rem;
 }
-.stat-count .row-1,
-.row-2{
+.stats__list .stats__row{
     display: flex;
     align-items: center;
     gap: 2rem;
     flex-wrap: wrap;
 }
-.stat-count .sub-row-1,
-.sub-row-2{
+.stats__list .stats__item{
     display: flex;
     align-items: center;
     gap: 1rem;
 }
-.details{
+.stats__info{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
 }
-.stats .detail-head{
+.stats .stats__number{
     font-size: 1.2rem;
     font-weight: 700;
 }
-.stats .detail-sup{
+.stats .stats__label{
     font-size: 1rem;
     font-weight: 400;
     color:  #717171;
